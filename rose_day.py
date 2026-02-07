@@ -11,6 +11,7 @@ st.set_page_config(
 name = st.query_params.get("name")
 
 
+
 # CSS Styling
 st.markdown("""
 <style>
