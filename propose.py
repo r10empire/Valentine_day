@@ -137,4 +137,4 @@ elif st.session_state.step == 4:
 # ---------------- DECOR ----------------
 hearts = " ".join(random.choice(["❤️", "💖", "💕", "💘"]) for _ in range(10))
 st.markdown(f"<div style='text-align:center;font-size:26px'>{hearts}</div>", unsafe_allow_html=True)
-st.markdown("<div class='footer'>Made specially, not generically ❤️</div>", unsafe_allow_html=True)
+
